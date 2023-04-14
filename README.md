@@ -40,5 +40,6 @@ The question is now answered by
  2. locating the point of the outdoor givens in the grid
  3. judging, which of these has more absolute humidity
 
+Both are of course still a simplification. As air expands through heating, a colder air package from outside will decrease its absolute humidity when heated to indoor temperature even without loosing any water content. This is because the absolute humidity is relative to the air volume. Therefore ventilation for humidity reduction can even be reasonable, if the outside absolute humidity is higher, but the temperature is lower than inside.
 
 The graphs can be recreated using [this R script](HumidityGraphs.R).
