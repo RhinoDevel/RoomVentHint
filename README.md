@@ -20,7 +20,7 @@ by Peter Mander.
 
 ## Visualisation
 
-Temperature, relative humidity and absolute humidity form a three dimensional relationship that is often visualised using temperature and absolute humidity as x and y axis and the relative humidity as lines (e.g. in the [Wikipedia article on humidity](https://de.wikipedia.org/wiki/Luftfeuchtigkeit#/media/Datei:Luftfeuchte.png)). But this visualisation is oversimplifies because it only shows the contours of equal relative humidity. The following plot shows a more complete visualisation of the 3D data using colour as the third dimension:
+Temperature, relative and absolute humidity form a three dimensional relationship that is often visualised using temperature and absolute humidity as x and y axis and the relative humidity as lines (e.g. in the [Wikipedia article on humidity](https://de.wikipedia.org/wiki/Luftfeuchtigkeit#/media/Datei:Luftfeuchte.png)). But this visualisation is oversimplified because it only shows the contours of equal relative humidity. The following plot shows a more complete visualisation of the 3D data using color as the third dimension:
 
 ![](rh_plot.png)
 
@@ -30,7 +30,7 @@ To answer the question: "Should I open the window?", one has to
  2. find the location where the vertical outdoor temperature line crosses the line of outdoor relative humidity
  3. evaluate which of these points is further up in the graph, i.e. has a higher absolute humidity
  
-An alternative representation of the same relationship plot the given values (temperature and relative humidity) on the two axes and colour-codes the absolute humidity:
+An alternative representation of the same relationship plots the given values (temperature and relative humidity) on the two axes and color-codes the absolute humidity:
 
 ![](ah_plot.png)
 
