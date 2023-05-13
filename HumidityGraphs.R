@@ -44,7 +44,7 @@ ggplot(ah_plot_data, aes(
   ) +
   theme_bw() +
   theme(panel.background = element_blank(), panel.ontop = TRUE) +
-  labs(title = "Absolute Humidity in relation to Temeperature and Relative Humidity", fill =
+  labs(title = "Absolute Humidity in relation to Temperature and Relative Humidity", fill =
          "Absolute \nHumidity \n[g/m³]") +
   ylab("Relative Humidity [%]") +
   xlab("Temperature [°C]")
